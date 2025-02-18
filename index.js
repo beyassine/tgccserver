@@ -9,7 +9,7 @@ app.use(express.json()); // Middleware to parse JSON request bodies
 // Use CORS and allow requests from your frontend 
 // List of allowed origins
 const allowedOrigins = process.env.NODE_ENV === 'production'
-  ? ['https://www.jsfeedback.com'] // Only allow production domain
+  ? ['https://tgccai.vercel.app'] // Only allow production domain
   : ['http://localhost:8080']; // Allow localhost in development
 
 
